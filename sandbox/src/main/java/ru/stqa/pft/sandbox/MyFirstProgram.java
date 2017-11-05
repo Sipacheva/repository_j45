@@ -2,8 +2,8 @@ package ru.stqa.pft.sandbox;
 
 public class MyFirstProgram {
 
-    public static void main(String[] args) {
-        hello("Olga");
+  public static void main(String[] args) {
+       /* hello("Olga");
         hello("user");
 
         double l=5;
@@ -24,6 +24,7 @@ public class MyFirstProgram {
 
     public static double area(double a, double b) {
       return a*b;
-    }
+    }*/
 
+  }
 }
