@@ -11,6 +11,7 @@ public class Distance {
     p1 = new Point(0, -9.3);
     p2 = new Point(-18.5, 25.15);
     System.out.println("Расстояние между двумя точками с координатами (" + p1.x + "; " + p1.y + ") и (" + p2.x + "; " + p2.y + ") = " + String.format("%.4f",p1.distance(p2)));
+    System.out.println("Расстояние (без округления) между двумя точками с координатами (" + p1.x + "; " + p1.y + ") и (" + p2.x + "; " + p2.y + ") = " + p1.distance(p2));
 
     p1 = new Point(1, 1);
     p2 = new Point(1, 1);
